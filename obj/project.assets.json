@@ -1335,11 +1335,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Phil\\source\\repos\\smartclinic\\smartclinic\\smartclinic.csproj",
+      "projectUniqueName": "C:\\Users\\Phil\\source\\smartclinic\\smartclinic.csproj",
       "projectName": "smartclinic",
-      "projectPath": "C:\\Users\\Phil\\source\\repos\\smartclinic\\smartclinic\\smartclinic.csproj",
+      "projectPath": "C:\\Users\\Phil\\source\\smartclinic\\smartclinic.csproj",
       "packagesPath": "C:\\Users\\Phil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Phil\\source\\repos\\smartclinic\\smartclinic\\obj\\",
+      "outputPath": "C:\\Users\\Phil\\source\\smartclinic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Phil\\AppData\\Roaming\\NuGet\\NuGet.Config",
