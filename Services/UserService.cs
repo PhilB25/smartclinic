@@ -43,7 +43,7 @@ namespace smartclinic.Services
             var wb = new XLWorkbook();
             var data = users.ToDataTable();
             wb.AddSheet("Users");
-            wb.WriteDataByList(data);
+            wb.WriteDataByList(users);
             wb.SaveAs("C:\\Users\\Phil\\source\\repos\\smartclinic\\smartclinic\\ExcelFile\\Users.xlsx");
             return wb.ToFile();
         }

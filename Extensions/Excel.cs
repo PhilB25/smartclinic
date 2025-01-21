@@ -24,11 +24,22 @@ namespace smartclinic.Extensions
         #endregion
         #endregion
         #region WriteData
-        public static void WriteDataByList(this XLWorkbook wb,  DataTable value){
+        public static void WriteDataByDataTable(this XLWorkbook wb,  DataTable value){
             var sheet = wb.Worksheet(1);
            for (int i = 0; i < value.Columns.Count; i++)
             {
                 sheet.Cell(1, i + 1).Value = value.Columns[i].ColumnName;
+            }
+            sheet.Cell(2,1).InsertData(value);
+        }
+        public static void WriteDataByList<T>(this XLWorkbook wb,  List<T> value){
+            var sheet = wb.Worksheet(1);
+            var properties = typeof(T).GetProperties(BindingFlags.Public | BindingFlags.Instance);
+            var i = 0;
+            foreach (var prop in properties)
+            {
+            sheet.Cell(1, i + 1).Value = prop.Name;
+            i++;
             }
             sheet.Cell(2,1).InsertData(value);
         }
