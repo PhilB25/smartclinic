@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3zCWZVWgfxnXueVi6e5nS9TH2sZqGq9u6peb51+ZZE8=",
+  "Source": "smartclinic",
+  "BasePath": "_content/smartclinic",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
